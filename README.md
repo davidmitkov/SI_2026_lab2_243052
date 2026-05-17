@@ -17,3 +17,10 @@ Potrebni se 4 test cases za da pominat site granki
 ZA || uslov testirame kombinacii (True, False) i (False, True) za da se potvrde deka bilo koj prazen vlez aktivira greska.
 Za && uslov: testirame (True, True) da se potvrde deka i dvata uslova treba da bidat ispolneti za knigata da bvide vratena.
 ---
+### Control Flow Graphs
+### VE MOLAM PISETE MI MAIL DOKOLKU NE RABOTAT SLIKITE BIDEJKI GI IMAM CFG
+#### searchBookByTitle
+![CFG searchBookByTitle](cfg_search.png)
+
+#### borrowBook
+![CFG borrowBook](cfg_borrow.png)
