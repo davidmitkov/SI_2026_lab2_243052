@@ -2,7 +2,8 @@
 
 Давид Митков
 243052
-Cekor 3 Ciklicna vrednost ja presmetav so formulata V(G) = P + 1, deka so P e brojo na jazli so se if for while uslovi. 
+Cekor 3
+Ciklicna vrednost ja presmetav so formulata V(G) = P + 1, deka so P e brojo na jazli so se if for while uslovi. 
 
 Za searchBookbyTitle toa se: if (title.isEmpty()), for (Book book : books), if (condition1 && condition2), if (results.isEmpty()).Znaci V(G) = 4+1 = 5, 
 
@@ -19,8 +20,6 @@ Za searchBookbyTitle toa se: if (title.isEmpty()), for (Book book : books), if (
 | Т1 (Празен наслов) | `""` | IllegalArgumentException | 1-2 |
 | Т2 (Постоечка книга) | `"Clean Code"` | List со 1 книга | 3-8, 11 |
 | Т3 (Непостоечка книга) | `"Harry Potter"` | null | 3-6, 9-10 |
-
-^^ Ova gore probav da go napravam kako primerot so bese daden. Ovie linii | se kako linii megu koloni i redovi
 
 --- Every Branch Criteria (borrowBook)
 
