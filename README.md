@@ -7,6 +7,11 @@ Cekor 3 Ciklicna vrednost ja presmetav so formulata V(G) = P + 1, deka so P e br
 1: Prazen naslov: Aktivira if (title.isEmpty()).
 2: Pronajdena kniga: Izvrsuva results.add(book) и return results.
 3: Nenajdena kniga: Aktivira if (results.isEmpty()) и vraka null.
+Тест случај | Влез (title) | Очекуван излез | Покриени линии |
+Т1 (Празен наслов) | ""IllegalArgumentException" | 1-2 |
+Т2 (Постоечка книга) |"Clean Code" | List со 1 книга | 3-8, 11 |
+Т3 (Непостоечка книга) |"Harry Potter" | null | 3-6, 9-10 |
+^^ Ova gore probav da go napravam kako primerot so bese daden. Ovie linii | se kako linii megu koloni i redovi
 --- Every Branch Criteria (borrowBook)
 Potrebni se 4 test cases za da pominat site granki
 1: Nevaliden vlez ili granka za prazen naslov ili avtor
